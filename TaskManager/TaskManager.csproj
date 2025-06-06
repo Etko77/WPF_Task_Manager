@@ -43,6 +43,9 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
@@ -55,6 +58,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Services\TaskStorageService.cs" />
     <Compile Include="Views\NewTaskWindow.xaml.cs">
       <DependentUpon>NewTaskWindow.xaml</DependentUpon>
     </Compile>
@@ -83,6 +87,7 @@
     </Compile>
     <Compile Include="Models\Task.cs" />
     <Compile Include="Models\TaskCheckList.cs" />
+    <Compile Include="ViewModel\ImportanceToColorConverter.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
@@ -129,7 +134,6 @@
     <Folder Include="Assets\Files\Txt\" />
     <Folder Include="Assets\Images\" />
     <Folder Include="DataServices\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

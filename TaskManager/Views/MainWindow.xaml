@@ -81,12 +81,11 @@
                     Height="40"
                     Width="40"
                     Margin="375,0,0,0"
-                     Command="{Binding IOpenNewWindow}">
+                    Command="{Binding OpenNewTaskCommand}">
                 <!--Icon-->
                 <Viewbox Width="22">
                     <Path Data="{StaticResource NewTaskIcon}" Fill="{StaticResource OnAccent}"/>
                 </Viewbox>
-
             </Button>
             <!--Search task bar-->
             <TextBox x:Name="TaskSearchBox"
@@ -120,10 +119,30 @@
             </Button>
 
             <!--List of tasks-->
-            <ListView Grid.Row="2"
+            <ListView ItemsSource="{Binding Tasks}"
+                      SelectedItem="{Binding SelectedTask}"
+                      Grid.Row="2"
                       Background="Transparent"
-                      Margin="0,20,0,20" Grid.RowSpan="2">
-
+                      Margin="0,20,0,20" 
+                      Grid.RowSpan="2">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="10">
+                            <TextBlock Text="{Binding Title}" 
+                                     FontSize="16" 
+                                     FontWeight="SemiBold"/>
+                            <TextBlock Text="{Binding Description}" 
+                                     TextWrapping="Wrap"
+                                     Margin="0,5,0,0"/>
+                            <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                <TextBlock Text="Due: "/>
+                                <TextBlock Text="{Binding DueDate, StringFormat=d}"/>
+                                <TextBlock Text=" | "/>
+                                <TextBlock Text="{Binding TaskImportance}"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
 
         </Grid>
@@ -142,28 +161,26 @@
                     <RowDefinition Height="30"/>
                 </Grid.RowDefinitions>
                 <!--Task title-->
-                <TextBlock Text="Task Title"
+                <TextBlock Text="{Binding SelectedTask.Title, FallbackValue='Select a task to view details'}"
                            Style="{StaticResource Title}"
-                           VerticalAlignment="Center"
-                          />
+                           VerticalAlignment="Center"/>
                 <!--Importance badge-->
                 <Border HorizontalAlignment="Right"
                         VerticalAlignment="Center"
                         Padding="20 5"
                         CornerRadius="5"
-                        Background="{StaticResource Importance-Low}">
-                    <TextBlock Text="Critical"
+                        Background="{Binding SelectedTask.TaskImportance, Converter={StaticResource ImportanceToColorConverter}}">
+                    <TextBlock Text="{Binding SelectedTask.TaskImportance}"
                                Foreground="Black"
                                FontWeight="Bold"
                                FontSize="13"/>
-
                 </Border>
                 <!--Description Scroll viewer-->
                 <ScrollViewer Grid.Row="1"
                               VerticalScrollBarVisibility="Auto"
                               HorizontalScrollBarVisibility="Disabled">
                     <!--Description-->
-                    <TextBlock Text="This is a short description test."
+                    <TextBlock Text="{Binding SelectedTask.Description}"
                            TextWrapping="Wrap"
                                FontSize="16"
                            Foreground="{StaticResource PlaceholderText}"
@@ -171,14 +188,13 @@
                 </ScrollViewer>
 
                 <!--Due date-->
-                <TextBlock Text="Due: 01/01/2025"
+                <TextBlock Text="{Binding SelectedTask.DueDate, StringFormat='Due: {0:d}'}"
                            Background="DarkSlateBlue"
                            Padding="20 3"
                            VerticalAlignment="Center"
                            HorizontalAlignment="Left"
                            Grid.Row="2"
                            Foreground="White"/>
-
             </Grid>
 
 
@@ -207,16 +223,19 @@
                         HorizontalAlignment="Left"
                         VerticalAlignment="Center"
                         Margin="20 0 0 0"
-                        Content="Delete"/>
+                        Content="Delete"
+                        Command="{Binding DeleteTaskCommand}"/>
                 <Button Style="{StaticResource TaskViewEditButton}"
                         HorizontalAlignment="Center"
                         VerticalAlignment="Center"
-                        Content="Edit"/>
+                        Content="Edit"
+                        Command="{Binding EditTaskCommand}"/>
                 <Button Style="{StaticResource TaskViewCompleteButton}"
                     HorizontalAlignment="Right"
                         VerticalAlignment="Center"
                         Content="Complete"
-                        Margin="0 0 20 0"/>
+                        Margin="0 0 20 0"
+                        Command="{Binding CompleteTaskCommand}"/>
             </Grid>
 
 

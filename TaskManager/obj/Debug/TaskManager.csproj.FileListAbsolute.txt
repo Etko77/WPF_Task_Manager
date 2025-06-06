@@ -22,3 +22,5 @@ C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Views\TaskListItem
 C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Views\NewTaskWindow.baml
 C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Views\TaskListItem.baml
 C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\etien\source\repos\TaskManager\TaskManager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\TaskMana.F3FB485A.Up2Date

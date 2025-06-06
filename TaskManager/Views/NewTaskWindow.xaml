@@ -4,11 +4,97 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskManager.Views"
+        xmlns:models="clr-namespace:TaskManager.Models"
         mc:Ignorable="d"
-        Title="NewTaskWindow" Height="450" Width="800"
+        Title="New Task" Height="600" Width="600"
+		MinHeight="600"
         WindowStartupLocation="CenterScreen">
     
-    <Grid>
-        
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Create New Task" 
+               Style="{StaticResource Heading1}"
+               Margin="0,0,0,20"/>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,10">
+            <TextBlock Text="Title" Margin="0,0,0,5"/>
+            <TextBox x:Name="TitleTextBox" 
+                     Style="{StaticResource TaskListSearchBox}"
+                     Height="40"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Margin="0,0,0,10">
+            <TextBlock Text="Description" Margin="0,0,0,5"/>
+            <TextBox x:Name="DescriptionTextBox" 
+                     Style="{StaticResource TaskListSearchBox}"
+                     Height="60"
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Margin="0,0,0,10">
+            <TextBlock Text="Due Date" Margin="0,0,0,5"/>
+            <DatePicker x:Name="DueDatePicker" 
+                        Height="40"
+                        SelectedDateChanged="DueDatePicker_SelectedDateChanged"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Margin="0,0,0,10">
+            <TextBlock Text="Importance" Margin="0,0,0,5"/>
+            <ComboBox x:Name="ImportanceComboBox" 
+                      Height="40"
+                      SelectionChanged="ImportanceComboBox_SelectionChanged">
+                <ComboBoxItem Content="Low"/>
+                <ComboBoxItem Content="Medium"/>
+                <ComboBoxItem Content="High"/>
+                <ComboBoxItem Content="Critical"/>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5" Margin="0,0,0,10">
+            <TextBlock Text="Category" Margin="0,0,0,5"/>
+            <ComboBox x:Name="CategoryComboBox" 
+                      Height="40"
+                      SelectionChanged="CategoryComboBox_SelectionChanged">
+                <ComboBoxItem Content="Personal"/>
+                <ComboBoxItem Content="Work"/>
+                <ComboBoxItem Content="Home"/>
+                <ComboBoxItem Content="Travel"/>
+                <ComboBoxItem Content="Health and Wellbeing"/>
+                <ComboBoxItem Content="Finance"/>
+                <ComboBoxItem Content="Shopping"/>
+                <ComboBoxItem Content="Social"/>
+                <ComboBoxItem Content="Education"/>
+                <ComboBoxItem Content="Errands"/>
+                <ComboBoxItem Content="Hobbies and Leisure"/>
+                <ComboBoxItem Content="Birthday and Anniversaries"/>
+                <ComboBoxItem Content="Projects"/>
+                <ComboBoxItem Content="Volunteering and Community"/>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="7" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Right">
+            <Button Content="Cancel" 
+                    Style="{StaticResource TaskViewDeleteButton}"
+                    Width="120"
+                    Margin="0,0,10,0"
+                    Click="CancelButton_Click"/>
+            <Button Content="Create Task" 
+                    Style="{StaticResource TaskViewCompleteButton}"
+                    Width="120"
+                    Click="CreateTaskButton_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
