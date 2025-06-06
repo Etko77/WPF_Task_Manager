@@ -17,3 +17,8 @@ C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Dictionaries\Colou
 C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Dictionaries\Icons.baml
 C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Dictionaries\Styles.baml
 C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\App.baml
+C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Views\NewTaskWindow.g.cs
+C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Views\TaskListItem.g.cs
+C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Views\NewTaskWindow.baml
+C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\Views\TaskListItem.baml
+C:\Users\etien\source\repos\TaskManager\TaskManager\obj\Debug\GeneratedInternalTypeHelper.g.cs

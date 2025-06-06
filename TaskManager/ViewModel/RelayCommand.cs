@@ -11,6 +11,14 @@ namespace TaskManager.ViewModel
     {
         private readonly Action _execute;
         private readonly Func<bool> _canExecute;
+        private Action openNewWindow;
+
+        public RelayCommand(Action openNewWindow)
+        {
+            _execute = openNewWindow ?? throw new ArgumentNullException(nameof(openNewWindow));
+            this.openNewWindow = openNewWindow;
+        }
+
 
         public RelayCommand(Action execute, Func<bool> canExecute)
         {

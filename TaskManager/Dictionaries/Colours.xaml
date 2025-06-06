@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <!-- App Accent Dark -->
-    <SolidColorBrush x:Key="AccentDark" Color="#FF614B63" />
+    <SolidColorBrush x:Key="AccentDark" Color="DarkSlateBlue" />
     <SolidColorBrush x:Key="AccentDarkOver" Color="#FF396AB4" />
     <SolidColorBrush x:Key="AccentDarkClick" Color="#FF66A3C5" />
 
@@ -19,14 +19,30 @@
     <SolidColorBrush x:Key="DefaultText" Color="#FF474747" />
     <!-- On Accent-->
     <SolidColorBrush x:Key="OnAccent" Color="#FFFFFFFF"/>
-    
+    <!--Placeholder for text-->
+    <SolidColorBrush x:Key="PlaceholderText" Color="#FF5D5D5D"/>
+
+    <SolidColorBrush x:Key="PlaceholderBordersText" Color="#FF373737"/>
+
+    <!--Buttons-->
+    <SolidColorBrush x:Key="Button.Complete" Color="#FFA2D985" />
+    <SolidColorBrush x:Key="Button.Complete.Over" Color="#FFC2D985" />
+    <SolidColorBrush x:Key="Button.Complete.Click" Color="#FF606060" />
+    <SolidColorBrush x:Key="Button.Edit" Color="#FF606060" />
+    <SolidColorBrush x:Key="Button.Edit.Over" Color="Gray" />
+    <SolidColorBrush x:Key="Button.Edit.Click" Color="DarkGray" />
+    <SolidColorBrush x:Key="Button.Delete" Color="#FFCA2C2C" />
+    <SolidColorBrush x:Key="Button.Delete.On" Color="OrangeRed" />
+    <SolidColorBrush x:Key="Button.Delete.Click" Color="YellowGreen" />
+
     <!--Borders-->
     <SolidColorBrush x:Key="Borders" Color="#FFCCCCCC"/>
+    
 
     <!-- Importance Colours -->
     <SolidColorBrush x:Key="Importance-Low" Color="#FFBCAFF4" />
     <SolidColorBrush x:Key="Importance-Med" Color="#FFA2D985" />
-    <SolidColorBrush x:Key="Importance-High" Color="#FFAC2CC2" />
+    <SolidColorBrush x:Key="Importance-High" Color="#FFCA2C2C" />
     <SolidColorBrush x:Key="Importance-Crit" Color="#FFF4B93C" />
 
     <!-- Task Progress -->
@@ -36,6 +52,13 @@
     <SolidColorBrush x:Key="Progress-Late" Color="#FFF46161" />
     <SolidColorBrush x:Key="Progress-Archived" Color="#FF616B81" />
     <SolidColorBrush x:Key="Progress-Deleted" Color="#FF606060" />
-
-
+    
+    <!--Nav Buttons-->
+    <SolidColorBrush x:Key="Nav.Default" Color="DarkSlateBlue"/>
+    <SolidColorBrush x:Key="Nav.Default.Over" Color="#FF396AB4"/>
+    <SolidColorBrush x:Key="Nav.Default.Click" Color="#FF66A3C5"/>
+    
+    <!--TaskUC-->
+    <SolidColorBrush x:Key="TaskListUCDescription" Color="#FF838383"/>
+    <SolidColorBrush x:Key="TaskListUCTitle" Color="#FF707070"/>
 </ResourceDictionary>

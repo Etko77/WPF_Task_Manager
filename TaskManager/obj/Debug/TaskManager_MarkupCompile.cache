@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\etien\source\repos\TaskManager\TaskManager\App.xaml
-4-1830658542
+6-957858567
 
-9989752588
+11502058597
 13-1310406943
-Dictionaries\Colours.xaml;Dictionaries\Icons.xaml;Dictionaries\Styles.xaml;Views\MainWindow.xaml;
+Dictionaries\Colours.xaml;Dictionaries\Icons.xaml;Dictionaries\Styles.xaml;Views\MainWindow.xaml;Views\NewTaskWindow.xaml;Views\TaskListItem.xaml;
 
 False
 

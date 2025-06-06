@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\etien\\source\\repos\\TaskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\dictionaries\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dictionaries\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\dictionaries\\icons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dictionaries\\icons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\models\\taskchecklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\taskchecklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\dictionaries\\colours.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dictionaries\\colours.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\dictionaries\\colours.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dictionaries\\colours.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\views\\newtaskwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\views\\newtaskwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|c:\\users\\etien\\source\\repos\\taskmanager\\taskmanager\\views\\tasklistitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\views\\tasklistitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\dictionaries\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dictionaries\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\models\\taskchecklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\taskchecklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\dictionaries\\icons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\dictionaries\\icons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|C:\\Users\\etien\\source\\repos\\TaskManager\\taskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C809CB52-70FE-4409-A4DF-A355714CFB73}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Models\\Task.cs",
               "RelativeDocumentMoniker": "TaskManager\\Models\\Task.cs",
@@ -68,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Dictionaries\\Styles.xaml",
               "RelativeDocumentMoniker": "TaskManager\\Dictionaries\\Styles.xaml",
@@ -76,11 +84,36 @@
               "RelativeToolTip": "TaskManager\\Dictionaries\\Styles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-05T16:13:55.089Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewTaskWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Views\\NewTaskWindow.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\Views\\NewTaskWindow.xaml",
+              "ToolTip": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Views\\NewTaskWindow.xaml",
+              "RelativeToolTip": "TaskManager\\Views\\NewTaskWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T01:35:53.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "TaskListItem.xaml",
+              "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Views\\TaskListItem.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\Views\\TaskListItem.xaml",
+              "ToolTip": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Views\\TaskListItem.xaml",
+              "RelativeToolTip": "TaskManager\\Views\\TaskListItem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-06T01:00:30.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Colours.xaml",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Dictionaries\\Colours.xaml",
               "RelativeDocumentMoniker": "TaskManager\\Dictionaries\\Colours.xaml",
@@ -92,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TaskManager\\Views\\MainWindow.xaml",
@@ -104,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TaskCheckList.cs",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Models\\TaskCheckList.cs",
               "RelativeDocumentMoniker": "TaskManager\\Models\\TaskCheckList.cs",
@@ -117,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Icons.xaml",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Dictionaries\\Icons.xaml",
               "RelativeDocumentMoniker": "TaskManager\\Dictionaries\\Icons.xaml",
@@ -129,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\App.xaml",
               "RelativeDocumentMoniker": "TaskManager\\App.xaml",
@@ -141,33 +174,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\ViewModel\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "TaskManager\\ViewModel\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\ViewModel\\MainWindowViewModel.cs",
-              "RelativeToolTip": "TaskManager\\ViewModel\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\ViewModel\\MainWindowViewModel.cs*",
+              "RelativeToolTip": "TaskManager\\ViewModel\\MainWindowViewModel.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T15:10:15.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\ViewModel\\RelayCommand.cs",
               "RelativeDocumentMoniker": "TaskManager\\ViewModel\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\ViewModel\\RelayCommand.cs",
-              "RelativeToolTip": "TaskManager\\ViewModel\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\ViewModel\\RelayCommand.cs*",
+              "RelativeToolTip": "TaskManager\\ViewModel\\RelayCommand.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA7wCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T15:10:15.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\etien\\source\\repos\\TaskManager\\TaskManager\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TaskManager\\Views\\MainWindow.xaml.cs",
@@ -175,7 +208,8 @@
               "RelativeToolTip": "TaskManager\\Views\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:56:01.132Z"
+              "WhenOpened": "2025-05-24T12:56:01.132Z",
+              "EditorCaption": ""
             }
           ]
         }
